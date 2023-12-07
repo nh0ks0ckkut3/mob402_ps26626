@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="../HTML/css/index.css">
+    <link rel="stylesheet" href="../HTML/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../HTML/css/style.css">
+    <link rel="stylesheet" href="../HTML/css/vendor.bundle.base.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-12 grid-margin">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <h4 class="card-title col-10">Recent Tickets</h4>
+                            <a href="../HTML/form.html" class="col-2">
+                            <button class="btn badge-gradient-success me-2"><img src="assets/images/plus.png" class="me-2" alt="image">Add</button></a>
+                        </div>
+                        
+                        <div class="table-responsive">
+                            <table class="table" id="listProducts">
+                                <thead>
+                                    <tr>
+                                        <th> Assignee </th>
+                                        <th> Subject </th>
+                                        <th> Status </th>
+                                        <th> Last Update </th>
+                                        <th> Tracking ID </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="assets/images/face1.jpg" class="me-2" alt="image"> David
+                                            Grey
+                                        </td>
+                                        <td> Fund is not recieved </td>
+                                        <td>
+                                            <label class="badge badge-gradient-success">DONE</label>
+                                        </td>
+                                        <td> Dec 5, 2017 </td>
+                                        <td> WD-12345 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="assets/images/face2.jpg" class="me-2" alt="image"> Stella
+                                            Johnson
+                                        </td>
+                                        <td> High loading time </td>
+                                        <td>
+                                            <label class="badge badge-gradient-warning">PROGRESS</label>
+                                        </td>
+                                        <td> Dec 12, 2017 </td>
+                                        <td> WD-12346 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="assets/images/face3.jpg" class="me-2" alt="image"> Marina
+                                            Michel
+                                        </td>
+                                        <td> Website down for one week </td>
+                                        <td>
+                                            <label class="badge badge-gradient-info">ON HOLD</label>
+                                        </td>
+                                        <td> Dec 16, 2017 </td>
+                                        <td> WD-12347 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="assets/images/face4.jpg" class="me-2" alt="image"> John Doe
+                                        </td>
+                                        <td> Loosing control on server </td>
+                                        <td>
+                                            <label class="badge badge-gradient-danger">REJECTED</label>
+                                        </td>
+                                        <td> Dec 3, 2017 </td>
+                                        <td> WD-12348 </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../web-admin//src/product/List.js"></script>
+</body>
+
+</html>
